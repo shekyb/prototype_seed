@@ -1,0 +1,37 @@
+{
+  "name": "js_revision",
+  "version": "1.0.0",
+  "description": "revision of js methods in the flash-cards style",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shekyb/js_revision.git"
+  },
+  "keywords": [
+    "learning",
+    "js"
+  ],
+  "author": "bojana sekeljic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shekyb/js_revision/issues"
+  },
+  "homepage": "https://github.com/shekyb/js_revision",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.4.2",
+    "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
+    "del": "^2.2.2",
+    "express": "^4.14.1",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
