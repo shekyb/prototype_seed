@@ -1,6 +1,9 @@
 # Prototype seed
 
-Seed for SPA prototypes built with node, express, angular and ui router, and gulp as task runner
+Seed for SPA prototypes built with node, express, angular and ui router, gulp as task runner, Bootstrap css and FontAwesome.
+
+## Dependancies
+You need to have [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com) installed on your machine.
 
 ## Usage
 
@@ -23,6 +26,10 @@ Seed for SPA prototypes built with node, express, angular and ui router, and gul
  gulp serve-dev
  ```
  The app will be served at `http://localhost:4040/`. This task watches for file changes and reloads the browser if you are using [livereload plugin](http://help.livereload.com/kb/general-use/browser-extensions)
+
+4. Resarting the server
+
+ By default server will restart whenever a change in `server.js` or `gulpfile.js` is detected. If you want to restart the server on your own, without building the files just type `rs` in the terminal while server is running.
 
 ## Folder sutrcuture
 ```
@@ -47,3 +54,5 @@ prototype_seed
 	|- server.js //holds server routes and serves static resources
 	|- README.md
 ```
+
+By default `index.html` loads Bootstrap and Fontawesome css. If you don't want to use them, just remove the links from `index.html`
