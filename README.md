@@ -22,7 +22,7 @@ Seed for SPA prototypes built with node, express, angular and ui router, and gul
  ```
  gulp serve-dev
  ```
- The app will be served at `http://localhost:4040/#/`. This task watches for file changes and reloads the browser if you are using [livereload plugin](http://help.livereload.com/kb/general-use/browser-extensions)
+ The app will be served at `http://localhost:4040/`. This task watches for file changes and reloads the browser if you are using [livereload plugin](http://help.livereload.com/kb/general-use/browser-extensions)
 
 ## Folder sutrcuture
 ```
@@ -31,7 +31,7 @@ prototype_seed
 	|   |- js 
 	|   |  |- app.js //it will always be first when running concat, this is where app is instatiated
 	|   |  |- stateDebugger.js //module for debugging ui router state transitions (http://stackoverflow.com/questions/20745761/what-is-the-angular-ui-router-lifecycle-for-debugging-silent-errors#answer-26086754)
-	|   |- sass //put all partial html files here
+	|   |- sass //put all sass files here
 	|   |  |- default.scss 
 	|   |- partials //put all partial html files here
 	|       |- home.html
