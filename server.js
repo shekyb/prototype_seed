@@ -17,5 +17,5 @@ app.get('/*', function(req, res, next){
 });
 
 app.listen(4040, function(){
-	console.log('serving at http://localhost:4040/#!/');
+	console.log('serving at http://localhost:4040/');
 })
