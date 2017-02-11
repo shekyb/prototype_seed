@@ -5,19 +5,24 @@ Seed for SPA prototypes built with node, express, angular and ui router, and gul
 ## Usage
 
 1. Clone repository to your local machine and enter the folder
-```
-git clone https://github.com/shekyb/prototype_seed.git
-cd prototype_seed
-```
+
+ ```
+ git clone https://github.com/shekyb/prototype_seed.git
+ cd prototype_seed
+ ```
+
 2. Install node modules
-```
-npm install
-```
+
+ ```
+ npm install
+ ```
+
 3. Build files and run the server
-```
-gulp serve-dev
-```
-The app will be served at `http://localhost:4040/#/`. This task watches for file changes and reloads the browser if you are using [livereload plugin](http://help.livereload.com/kb/general-use/browser-extensions)
+
+ ```
+ gulp serve-dev
+ ```
+ The app will be served at `http://localhost:4040/#/`. This task watches for file changes and reloads the browser if you are using [livereload plugin](http://help.livereload.com/kb/general-use/browser-extensions)
 
 ## Folder sutrcuture
 ```
