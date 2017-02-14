@@ -39,6 +39,7 @@ prototype_seed
 	|   |  |- app.js //it will always be first when running concat, this is where app is instatiated
 	|   |  |- stateDebugger.js //module for debugging ui router state transitions (http://stackoverflow.com/questions/20745761/what-is-the-angular-ui-router-lifecycle-for-debugging-silent-errors#answer-26086754)
 	|   |- sass //put all sass files here
+	|   |  |- _prefixer.scss // prefix mixins from materialize css framework 
 	|   |  |- default.scss 
 	|   |- partials //put all partial html files here
 	|       |- home.html
